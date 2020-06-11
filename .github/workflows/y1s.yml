@@ -67,7 +67,7 @@ jobs:
         chmod +x $DIY_P1_SH
         cd openwrt
         ../$DIY_P1_SH
-        git clone -b mipsel https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash
+        git clone -b test https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash
         git clone https://github.com/frainzy1477/luci-theme-rosyy.git package/lean/luci-theme-rosy
 
     - name: Update feeds
