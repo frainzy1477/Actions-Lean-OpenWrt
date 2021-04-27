@@ -66,7 +66,7 @@ jobs:
         chmod +x $DIY_P1_SH
         cd openwrt
         ../$DIY_P1_SH
-        git clone -b test https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash
+        git clone https://github.com/frainzy1477/trojan-go-openwrt package/trojan-go
         git clone -b master https://github.com/frainzy1477/luci-app-trojan.git package/lean/luci-app-trojan
         git clone https://github.com/frainzy1477/luci-theme-rosyy.git package/lean/luci-theme-rosy
         git clone https://github.com/kongfl888/luci-app-adguardhome.git package/lean/luci-app-adguardhome
