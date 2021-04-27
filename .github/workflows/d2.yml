@@ -75,7 +75,7 @@ jobs:
       run: cd openwrt && ./scripts/feeds update -a
 
     - name: Install feeds
-      run: cd openwrt && ./scripts/feeds install -a
+      run: cd openwrt && ./scripts/feeds install -a golang c-ares libev libopenssl libsodium mbedtls pcre libncursesw6
 
     - name: Load custom configuration
       run: |
